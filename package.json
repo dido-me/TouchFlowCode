@@ -11,12 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "@inquirer/prompts": "3.3.0",
+    "cli-spinners": "^2.9.2",
+    "colors": "1.4.0",
     "fp-ts": "2.16.2",
+    "fs-extra": "11.2.0",
     "io-ts": "2.2.21",
-    "simple-git": "^3.22.0",
+    "simple-git": "3.22.0",
     "xlsx": "0.18.5"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
     "@types/inquirer": "^9.0.7",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",

@@ -7,6 +7,7 @@ import { type ExcelFile } from '../model/excelFile'
 const ExcelFileModel = t.type({
   Proyecto: t.string,
   Touch: t.string,
+  PathRepoTouch: t.string,
   Cliente: t.string
 })
 
